@@ -4,7 +4,9 @@ Simple Python HTTP-Server performing STT via HTTP-POST with DeepSpeech as backen
 Setup
   - Install DeepSpeech via pip
   - Execute dshttp.py with the required parameters, eg.
+      ```
       dshttp.py models/output_graph.pb models/alphabet.txt 8080 models/lm.binary models/trie
+      ´´´
 
 Usage
   - Encode the source WAV-formatted audio file (16kHz sampling rate) with base32
