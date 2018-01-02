@@ -8,3 +8,4 @@ Setup
 Usage
   - Encode the source WAV-formatted audio file (16kHz sampling rate) with base32
   - Post the encoded file to the server, eg. with curl -X POST -d @base_encoded_file.b32 server:8080
+  - Server will return the result of STT as response
